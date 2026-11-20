@@ -1,0 +1,15 @@
+{
+    "MRP Ranu": "MRP Ranu",
+    "Sign in": "Masuk",
+    "Email": "Email",
+    "Password": "Kata sandi",
+    "Division": "Divisi",
+    "Access matrix": "Matriks akses",
+    "Log out": "Keluar",
+    "Welcome": "Selamat datang",
+    "Save": "Simpan",
+    "Access matrix saved.": "Matriks akses tersimpan.",
+    "These credentials do not match our records.": "Email atau kata sandi salah.",
+    "Your division is inactive. Contact the administrator.": "Divisi Anda tidak aktif. Hubungi administrator.",
+    "Too many login attempts. Please try again in :seconds seconds.": "Terlalu banyak percobaan masuk. Coba lagi dalam :seconds detik."
+}

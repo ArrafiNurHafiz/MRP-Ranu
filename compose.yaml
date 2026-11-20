@@ -1,0 +1,21 @@
+services:
+  mysql:
+    image: docker.io/library/mysql:8.4
+    container_name: mrp-ranu-db
+    environment:
+      MYSQL_DATABASE: mrp_ranu
+      MYSQL_USER: mrp
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mrp-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  mrp-db-data:
